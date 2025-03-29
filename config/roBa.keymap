@@ -68,8 +68,8 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                   &kp T                                                 &kp Y          &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                   &kp G      &kp LS(LG(S))                 &kp MINUS    &kp H          &kp J  &kp K      &kp L    &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B      &lt_to_layer_0 1 AT_SIGN      &kp COLON    &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp A             &kp S         &kp D         &kp F                   &kp G      &trans                        &kp MINUS    &kp H          &kp J  &kp K      &kp L    &kp SEMICOLON
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B      &lt_to_layer_0 1 AT_SIGN      &lt 2 COLON  &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 SPACE  &mkp RCLK  &mkp LCLK                     &lt 1 ENTER  &kp BACKSPACE                             &kp NON_US_BACKSLASH
             >;
 
@@ -78,10 +78,10 @@
 
         FUNCTION {
             bindings = <
-&kp ESC         &trans  &trans  &trans  &trans                            &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp F4  &kp F5
-&kp LANGUAGE_5  &trans  &trans  &trans  &trans  &trans      &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp F9  &kp F10
-&trans          &trans  &trans  &trans  &trans  &trans      &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp F11
-&trans          &trans  &trans  &trans  &trans  &trans      &trans        &trans                                            &kp F12
+&kp ESC           &trans        &kp UP        &trans     &trans                            &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp F4  &kp F5
+&kp LANGUAGE_5    &kp LEFT      &kp DOWN      &kp RIGHT  &trans  &trans      &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp F9  &kp F10
+&kp TAB           &trans        &trans        &trans     &trans  &trans      &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &kp F11
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &trans     &trans  &trans      &trans        &trans                                            &kp F12
             >;
         };
 
